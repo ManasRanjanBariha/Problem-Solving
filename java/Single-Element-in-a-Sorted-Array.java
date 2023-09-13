@@ -1,3 +1,5 @@
+package java;
+
 class Solution {
     public int singleNonDuplicate(int[] nums) {
         int n=nums.length;
