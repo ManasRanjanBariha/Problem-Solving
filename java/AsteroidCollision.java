@@ -1,3 +1,5 @@
+
+import java.util.*;
 class Solution {
     public boolean samesign(int a,int b)
     {
@@ -15,7 +17,6 @@ class Solution {
     }
     public int[] asteroidCollision(int[] asteroids) {
         Stack<Integer>stk=new Stack<>();
-        int element;
         for(int i=0;i<asteroids.length;i++)
         {
             if(stk.size() == 0 || samesign(stk.peek(),asteroids[i]))
